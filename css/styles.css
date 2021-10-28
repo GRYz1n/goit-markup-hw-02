@@ -1,3 +1,39 @@
-body {
+/* Main page */
+.page {
+  color: #212121;
   background-color: #fff;
 }
+
+/* Site nav */
+.list {
+  list-style: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* Hero */
+.hero {
+  background: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+/* features */
+
+.features .title {
+  color: red;
+}
+
+/* Footer */
+
+/* Peculiarities, hyperlink color #757575 
+   Footer Web color #2196F3
+   color: rgba(255, 255, 255, 0.6);
+   main background: #E5E5E5;
+   hero\footer background: #2F303A;
+   Accent, hover #2196F3  */ ;
