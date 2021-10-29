@@ -1,3 +1,10 @@
+:root {
+  --primary-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --hyperlink-color: #757575;
+}
+
 /* Main page */
 .page {
   color: #212121;
@@ -11,7 +18,7 @@
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-text-color);
 }
 
 /* Hero */
@@ -20,7 +27,7 @@
 }
 
 .hero-title {
-  color: #ffffff;
+  color: var(--accent-text-color);
 }
 
 /* features */
@@ -31,7 +38,7 @@
 
 /* Footer */
 
-/* Peculiarities, hyperlink color #757575 
+/* features, hyperlink color #757575 
    Footer Web color #2196F3
    color: rgba(255, 255, 255, 0.6);
    main background: #E5E5E5;
