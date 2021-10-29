@@ -7,9 +7,11 @@
 }
 
 /* Main page */
-.page {
+.body {
   color: #212121;
   background-color: #fff;
+  font-family: Roboto;
+  font-style: normal;
 }
 
 /* Site nav */
@@ -17,8 +19,29 @@
   list-style: none;
 }
 
+.logo {
+  color: var(--accent-text-color);
+}
+.studio {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+
+.contact .link {
+  color: #757575;
+}
+.contact .link:focus,
+.contact .link:hover {
   color: var(--accent-text-color);
 }
 
@@ -52,4 +75,7 @@
    color: rgba(255, 255, 255, 0.6);
    main background: #E5E5E5;
    hero\footer background: #2F303A;
-   Accent, hover #2196F3  */ ;
+   Accent, hover #2196F3 
+   logo main: 2196F3
+   logo span: 000000
+   */ ;
