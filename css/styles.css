@@ -3,6 +3,7 @@
   --accent-text-color: #2196f3;
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --hyperlink-color: #757575;
+  --hero-text-color: #ffffff;
 }
 
 /* Main page */
@@ -26,8 +27,14 @@
   background: #2f303a;
 }
 
+/* Button */
+.button {
+  color: var(--hero-text-color);
+  background-color: var(--accent-text-color);
+}
+
 .hero-title {
-  color: var(--accent-text-color);
+  color: var(--hero-text-color);
 }
 
 /* features */
@@ -35,6 +42,8 @@
 .features .title {
   color: red;
 }
+
+/* our work */
 
 /* Footer */
 
