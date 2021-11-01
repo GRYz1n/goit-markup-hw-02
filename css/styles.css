@@ -19,8 +19,9 @@
 /* Main page */
 .body {
   color: #212121;
+
   background-color: #fff;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
 }
 
@@ -34,13 +35,26 @@
 
 .logo {
   color: var(--accent-text-color);
+
+  font-family: Raleway;
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 1.19;
+  vertical-align: Top;
+  text-decoration: none;
 }
+
 .studio {
   color: var(--primary-text-color);
 }
 
 .site-nav .link {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -52,6 +66,8 @@
 
 .contact .link {
   color: #757575;
+
+  text-decoration: none;
 }
 .contact .link:focus,
 .contact .link:hover {
@@ -61,17 +77,35 @@
 /* Hero */
 .hero {
   background: #2f303a;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--hero-text-color);
 }
 
 /* Button */
 .button {
   color: var(--hero-text-color);
   background-color: var(--accent-text-color);
+  font-family: Roboto;
+  font-weight: bold;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.06em;
 }
 
 .pbutton {
   color: var(--primary-text-color);
   background-color: var(--hero-text-color);
+  font-family: inherit;
 }
 
 .pbutton:hover,
@@ -80,14 +114,26 @@
   background-color: var(--accent-text-color);
 }
 
-.hero-title {
-  color: var(--hero-text-color);
-}
+/* Content */
 
 /* features */
 
 .features .title {
   color: var(--primary-text-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features {
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
 
 /* our work */
