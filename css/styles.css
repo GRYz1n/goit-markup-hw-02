@@ -1,3 +1,13 @@
+/* features, hyperlink color #757575 
+   Footer Web color #2196F3
+   color: rgba(255, 255, 255, 0.6);
+   main background: #E5E5E5;
+   hero\footer background: #2F303A;
+   Accent, hover #2196F3 
+   logo main: 2196F3
+   logo span: 000000
+   */
+
 :root {
   --primary-text-color: #212121;
   --accent-text-color: #2196f3;
@@ -59,6 +69,17 @@
   background-color: var(--accent-text-color);
 }
 
+.pbutton {
+  color: var(--primary-text-color);
+  background-color: var(--hero-text-color);
+}
+
+.pbutton:hover,
+.pbutton:focus {
+  color: var(--hero-text-color);
+  background-color: var(--accent-text-color);
+}
+
 .hero-title {
   color: var(--hero-text-color);
 }
@@ -72,13 +93,3 @@
 /* our work */
 
 /* Footer */
-
-/* features, hyperlink color #757575 
-   Footer Web color #2196F3
-   color: rgba(255, 255, 255, 0.6);
-   main background: #E5E5E5;
-   hero\footer background: #2F303A;
-   Accent, hover #2196F3 
-   logo main: 2196F3
-   logo span: 000000
-   */ ;
