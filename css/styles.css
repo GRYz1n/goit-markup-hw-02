@@ -102,6 +102,7 @@ ul {
 .button {
   color: var(--hero-text-color);
   background-color: var(--accent-text-color);
+  cursor: pointer;
 
   font-weight: 700;
   font-size: 16px;
@@ -114,6 +115,7 @@ ul {
 .pbutton {
   color: var(--primary-text-color);
   background-color: var(--hero-text-color);
+  cursor: pointer;
 
   font-family: Roboto;
   font-weight: 500;
