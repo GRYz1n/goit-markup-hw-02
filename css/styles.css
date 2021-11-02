@@ -26,9 +26,14 @@
 }
 
 /* Site nav */
-.list {
+a {
+  text-decoration: none;
+}
+
+ul {
   list-style: none;
 }
+
 .hidden {
   display: none;
 }
@@ -37,11 +42,10 @@
   color: var(--accent-text-color);
 
   font-family: Raleway;
-  font-style: Bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  vertical-align: Top;
-  text-decoration: none;
+  letter-spacing: 0.03em;
 }
 
 .studio {
@@ -54,7 +58,6 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
-  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -93,12 +96,10 @@
   color: var(--hero-text-color);
   background-color: var(--accent-text-color);
   font-family: Roboto;
-  font-weight: bold;
-  font-style: Bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
-  align-items: center;
   letter-spacing: 0.06em;
 }
 
@@ -138,10 +139,63 @@
 
 /* our work */
 
-/* Footer */
+.work-title,
+.team-title {
+  font-style: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
 
-.address {
+/* our team */
+
+.team {
+  background: #f5f4fa;
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team .team-text {
+  color: #757575;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* portfolio */
+
+/* footer */
+
+.footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  background-color: #2f303a;
+}
+
+.footer .address1 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: #f5f4fa;
+}
+
+.footer .address2 {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.studio-bottom {
+  color: #fff;
 }
