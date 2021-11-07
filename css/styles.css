@@ -64,9 +64,11 @@ img {
   line-height: 1.2;
 }
 
+.site-nav .current.link,
 .site-nav .link:hover,
 .site-nav .link:focus,
-.site-nav .current.link {
+.contact-list .link:focus,
+.contact-list .link:hover {
   color: var(--accent-text-color);
 }
 
@@ -78,10 +80,6 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-}
-.contact-list .link:focus,
-.contact-list .link:hover {
-  color: var(--accent-text-color);
 }
 
 /* hero */
@@ -141,9 +139,9 @@ img {
 /* !!Content!! */
 
 /* features */
-.features .title {
+.title {
   color: var(--primary-text-color);
-
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
   text-transform: uppercase;
@@ -177,7 +175,7 @@ img {
   line-height: 1.19;
 }
 
-.team .team-text {
+.team-text {
   color: var(--gray-text-color);
 
   font-size: 16px;
@@ -185,7 +183,7 @@ img {
 }
 
 /* portfolio */
-.portfolio .portfolio-item {
+.portfolio-item {
   color: var(--primary-text-color);
 
   font-weight: 700;
@@ -193,7 +191,7 @@ img {
   line-height: 2;
 }
 
-.portfolio .portfolio-text {
+.portfolio-text {
   color: var(--gray-text-color);
 
   font-size: 16px;
@@ -208,7 +206,7 @@ img {
   line-height: 1.71;
 }
 
-.footer .address1 {
+.address1 {
   color: var(--team-main);
 
   font-weight: 400;
@@ -218,14 +216,14 @@ img {
   vertical-align: Top;
 }
 
-.footer .address2 {
+.address2 {
   color: var(--footer-text-color);
   font-style: normal;
 }
 
-.footer .address1:focus,
-.footer .address1:hover,
-.footer .address2:focus,
-.footer .address2:hover {
+.address1:focus,
+.address1:hover,
+.address2:focus,
+.address2:hover {
   color: var(--accent-text-color);
 }
