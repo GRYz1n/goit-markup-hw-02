@@ -12,85 +12,95 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body>
+<body class="body">
+
     <!-- Header top -->
-    <header>
-        <nav class="menu">
-            <a href="./index.html">WebStudio</a>
-            <ul>
-                <li><a href="./index.html" class="current link">Studio</a></li>
-                <li><a href="./portfolio.html" class="link">Portfolio</a></li>
-                <li><a href="" class="link">Contacts</a></li>
-            </ul>
-        </nav>
-        <address class="contacts">
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-            </ul>
-        </address>
+    <header class="page-header">
+        <div class="header container">
+            <nav class="header__menu">
+                <a href="./index.html" class="logo"> <span class="web">Web</span>Studio</a>
+                <ul class="header__nav">
+                    <li class="header__nav"><a href="./index.html" class="header__link">Studio</a></li>
+                    <li class="header__nav--current"><a href="./portfolio.html" class="header__link">Portfolio</a></li>
+                    <li class="header__nav"><a href="" class="header__link">Contacts</a></li>
+                </ul>
+            </nav>
+            <address class="header__contacts">
+                <ul>
+                    <li class="header__contacts--email">
+                        <a href="mailto:info@devstudio.com" class="link mail">info@devstudio.com</a>
+                    </li>
+                    <li class="header__contacts--phone" class="link phone">
+                        <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </header>
     <!-- /Header top -->
 
     <!-- Content section -->
 
-    <section class="portfolio">
-        <h1 class="visually-hidden">Our projects</h1>
-        <ul class="list">
-            <li><button type='button' class="pbutton">All</button></li>
-            <li><button type='button' class="pbutton">Web Site</button></li>
-            <li><button type='button' class="pbutton">App</button></li>
-            <li><button type='button' class="pbutton">Design</button></li>
-            <li><button type='button' class="pbutton">Marketing</button></li>
-        </ul>
+    <section class="portfolio section">
+        <div class="container">
+            <h1 class="visually-hidden">Our projects</h1>
 
-        <ul class="portfolio-list">
-            <li>
-                <img src="./images/portfolio/portfolio1.jpg" width="360" alt="Banking App Interface Concept">
-                <h2 class="portfolio-item">Banking App Interface Concept</h2>
-                <p class="portfolio-text">App</p>
-            </li>
-            <li>
-                <img src="./images/portfolio/portfolio2.jpg" width="360" alt="Cashless Payment">
-                <h2 class="portfolio-item">Cashless Payment</h2>
-                <p class="portfolio-text">Marketing</p>
-            </li>
-            <li>
-                <img src="./images/portfolio/portfolio3.jpg" width="360" alt="Meditaion App">
-                <h2 class="portfolio-item">Meditaion App</h2>
-                <p class="portfolio-text">App</p>
-            </li>
-            <li>
-                <img src="./images/portfolio/portfolio4.jpg" width="360" alt="Taxi Service">
-                <h2 class="portfolio-item">Taxi Service</h2>
-                <p class="portfolio-text">Marketing</p>
-            </li>
-            <li>
-                <img src="./images/portfolio/portfolio5.jpg" width="360" alt="Screen Illustrations">
-                <h2 class="portfolio-item">Screen Illustrations</h2>
-                <p class="portfolio-text">Design</p>
-            </li>
-            <li>
-                <img src="./images/portfolio/portfolio6.jpg" width="360" alt="Online Courses">
-                <h2 class="portfolio-item">Online Courses</h2>
-                <p class="portfolio-text">Marketing</p>
-            </li>
-            <li>
-                <img src="./images/portfolio/portfolio7.jpg" width="360" alt="Instagram Stories Concept">
-                <h2 class="portfolio-item">Instagram Stories Concept</h2>
-                <p class="portfolio-text">Design</p>
-            </li>
-            <li>
-                <img src="./images/portfolio/portfolio8.jpg" width="360" alt="Organic Food">
-                <h2 class="portfolio-item">Organic Food</h2>
-                <p class="portfolio-text">Web Site</p>
-            </li>
-            <li>
-                <img src="./images/portfolio/portfolio9.jpg" width="360" alt="Fresh Coffee">
-                <h2 class="portfolio-item">Fresh Coffee</h2>
-                <p class="portfolio-text">Web Site</p>
-            </li>
-        </ul>
+            <ul class="navigation--list">
+                <li><button type='button' class="button__portfolio--current">All</button></li>
+                <li><button type='button' class="button__portfolio">Web Site</button></li>
+                <li><button type='button' class="button__portfolio">App</button></li>
+                <li><button type='button' class="button__portfolio">Design</button></li>
+                <li><button type='button' class="button__portfolio">Marketing</button></li>
+            </ul>
+
+            <ul class="portfolio-list">
+                <li class="portfolio__element">
+                    <img src="./images/portfolio/portfolio1.jpg" width="360" alt="Banking App Interface Concept">
+                    <h2 class="portfolio__item">Banking App Interface Concept</h2>
+                    <p class="portfolio__text">App</p>
+                </li>
+                <li class="portfolio__element">
+                    <img src="./images/portfolio/portfolio2.jpg" width="360" alt="Cashless Payment">
+                    <h2 class="portfolio__item">Cashless Payment</h2>
+                    <p class="portfolio__text">Marketing</p>
+                </li>
+                <li class="portfolio__element">
+                    <img src="./images/portfolio/portfolio3.jpg" width="360" alt="Meditaion App">
+                    <h2 class="portfolio__tem">Meditaion App</h2>
+                    <p class="portfolio__text">App</p>
+                </li>
+                <li class="portfolio__element">
+                    <img src="./images/portfolio/portfolio4.jpg" width="360" alt="Taxi Service">
+                    <h2 class="portfolio__item">Taxi Service</h2>
+                    <p class="portfolio__text">Marketing</p>
+                </li>
+                <li class="portfolio__element">
+                    <img src="./images/portfolio/portfolio5.jpg" width="360" alt="Screen Illustrations">
+                    <h2 class="portfolio__item">Screen Illustrations</h2>
+                    <p class="portfolio__text">Design</p>
+                </li>
+                <li class="portfolio__element">
+                    <img src="./images/portfolio/portfolio6.jpg" width="360" alt="Online Courses">
+                    <h2 class="portfolio__item">Online Courses</h2>
+                    <p class="portfolio__text">Marketing</p>
+                </li>
+                <li class="portfolio__element">
+                    <img src="./images/portfolio/portfolio7.jpg" width="360" alt="Instagram Stories Concept">
+                    <h2 class="portfolio__item">Instagram Stories Concept</h2>
+                    <p class="portfolio__text">Design</p>
+                </li>
+                <li class="portfolio__element">
+                    <img src="./images/portfolio/portfolio8.jpg" width="360" alt="Organic Food">
+                    <h2 class="portfolio__item">Organic Food</h2>
+                    <p class="portfolio__text">Web Site</p>
+                </li>
+                <li class="portfolio__element">
+                    <img src="./images/portfolio/portfolio9.jpg" width="360" alt="Fresh Coffee">
+                    <h2 class="portfolio__item">Fresh Coffee</h2>
+                    <p class="portfolio__text">Web Site</p>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <!-- /Content section -->
