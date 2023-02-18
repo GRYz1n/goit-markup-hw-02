@@ -18,6 +18,7 @@ body {
 	color: var(--text);
 
 	font-family: Roboto, sans-serif;
+	font-style: normal;
 	letter-spacing: 0.03em;
 }
 
@@ -101,8 +102,6 @@ p {
 .address__link {
 	color: var(--dark);
 
-	font-weight: 400;
-	font-style: normal;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -182,7 +181,6 @@ p {
 }
 
 .features__description {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -233,7 +231,6 @@ p {
 }
 
 .portfolio__text {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 
